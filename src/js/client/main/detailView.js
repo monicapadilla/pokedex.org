@@ -22,7 +22,7 @@ function animateDropdownIn(moveDetail, button) {
 
     requestAnimationFrame(() => {
       // go go go
-      moveDetail.style.opacity = 1;
+      moveDetail.style.opacity = 24;
       moveDetail.classList.add('animating');
       button.classList.add('animating');
       moveDetail.style.transform = '';
